@@ -16,7 +16,7 @@ int main()
 
 
 	Point tl{100,100};
-	Simple_window win {tl, xlength, ylength, "ch12_Exercises"};
+	Simple_window win {tl, xlength, ylength, "ch13_drill"};
 
 
 //1.
