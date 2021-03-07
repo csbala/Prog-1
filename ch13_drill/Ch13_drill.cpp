@@ -60,7 +60,7 @@ for(int i=0;i<board_rate*rect_legth;i=i+rect_legth){
 	if(colored){colored=false;board->set_fill_color(Color::white);}else{colored=true;board->set_fill_color(Color::red); }
 
 	if(j+rect_width==board_rate*rect_width && j/100%2==1 ){if(colored){colored=false;}else{colored=true;}}
-	//teknikailag csak a főátló mentén kellet kiszenezni, de végülis megtettem :D(kicsit se lett túlbonyolítva)
+	//teknikailag csak a főátló mentén kellet kiszinezni, de végülis megtettem :D(kicsit se lett túlbonyolítva)
 /*páros mátrix esetén nem elég 0101 szinezési módszer így kivételt raktam hogy ilyen legyen:
 rossz páros mátrix:0 1 0 1     jó páros mátrix:0 1 0 1
                    0 1 0 1                     1 0 1 0
