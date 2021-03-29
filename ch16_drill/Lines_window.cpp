@@ -18,7 +18,7 @@ style_menu({x_max()-300,40}, 150, 40, Menu::vertical, "Styles"),
 select_linestyle({x_max()-300,40}, 150, 40, "Line_style", [](Address, Address pw){
     reference_to<Lines_window>(pw).select_linestyle_pressed();})
 {
-    //construktor definicioja
+    //konstruktor definicioja
     attach(next_button);
     attach(quit_button);
     attach(next_x);
