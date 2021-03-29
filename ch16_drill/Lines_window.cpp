@@ -29,7 +29,7 @@ select_linestyle({x_max()-300,40}, 150, 40, "Line_style", [](Address, Address pw
     reference_to<Lines_window>(pw).red_pressed();
     })); 
     //a color_menu-höz viszonyít ezért van csak 0
-    //callback fügvény lambdaval: bekér 2 db adress csak 1 et használunk de így kéri a buttonak contruktora, amelyiket használjuk a szülű ablakra mutat és meghivjuk a redd_pressed
+    //callback fügvény lambdaval: bekér 2 db adress csak 1 et használunk de így kéri a buttonak konstruktora, amelyiket használjuk a szülű ablakra mutat és meghivjuk a redd_pressed
     color_menu.attach(new Button({0,0}, 0, 0, "Blue",[](Address, Address pw){
     reference_to<Lines_window>(pw).blue_pressed();
     }));
