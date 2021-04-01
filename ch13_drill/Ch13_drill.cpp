@@ -19,29 +19,8 @@ int main()
 	Simple_window win {tl, xlength, ylength, "ch13_drill"};
 
 
-//1.
-	 int legth=100;
-	 int width=100;
+	
 
-	Rectangle rect {Point{400,300},100,100};//balfelsőrarok,magasság,szélesség
-	rect.set_color(Color::blue);
-
-	Polygon rect_poly;
-	rect_poly.add(Point{300,200});            ///balfelső sarok
-	rect_poly.add(Point{300+legth,200});      ///jobbfelső sarok
-	rect_poly.add(Point{300+legth,200+width});///jobbalsó sarok
-	rect_poly.add(Point{300,200+width});      ///balalsó sarok
-	rect_poly.set_color(Color::red);
-
-///2.
-Rectangle rect_3 {Point{300,300},100,30};
-Text text {Point{325,320}, "Howdy!"};
-
-//3.
-
-//pass
-
-//4
 
 //true=üressel kezd, false=pirossal kezd
 bool colored=false;
@@ -73,22 +52,16 @@ rossz páros mátrix:0 1 0 1     jó páros mátrix:0 1 0 1
 }
 
 
-
 Image i1{Point{0,300},"pic.jpg"};
 Image i2{Point{0,400},"pic.jpg"};
 Image i3{Point{0,500},"pic.jpg"};
 
 
-//i.set_mask(Point{300,300},rect_legth,rect_width);
 win.attach(i1);
 win.attach(i2);
 win.attach(i3);
 
-	/*win.attach(rect);
-	win.attach(rect_poly);
-	win.attach(rect_3);
-	win.attach(text);*/
-
+	
 for(int i=0;i<board_rate*rect_legth;i=i+rect_legth){
 	for(int j=0;j<board_rate*rect_width;j=j+rect_width){
 	
