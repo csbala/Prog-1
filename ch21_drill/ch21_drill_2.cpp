@@ -47,7 +47,7 @@ int main(){
 	map<int,string> mis;
 
 	for (const auto& a : msi)
-        mis[a.second] = a.first;
+       	   mis[a.second] = a.first;
 
     	cout << '\n';
 
