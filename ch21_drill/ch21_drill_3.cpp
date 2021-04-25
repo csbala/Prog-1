@@ -44,11 +44,11 @@ int main(){
 	    cout << vd[i] << "\t\t" << vi[i] << '\n';
 
 //5
-	double vd_sum = std::accumulate(vd.begin(),vd.end(),0.0);
+	double vd_sum = accumulate(vd.begin(),vd.end(),0.0);
 	cout << "\nSum of the vd: " << vd_sum << endl;
 
 //6
-	int vi_sum = std::accumulate(vi.begin(),vi.end(),0);
+	int vi_sum = accumulate(vi.begin(),vi.end(),0);
 	double dif = vd_sum - vi_sum;
 	cout << "Difference between vi sum and vd sum: " << dif << endl;
 
