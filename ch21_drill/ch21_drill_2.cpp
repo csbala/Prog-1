@@ -8,8 +8,8 @@ void print(map<string,int>const& m){
 void insert(map<string,int>& m){
 
 	string s("");
-	int    i(0);
-	int    j(0);
+	int i(0);
+	int j(0);
 
 	while(j<10)
 	{
