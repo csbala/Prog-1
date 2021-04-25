@@ -111,13 +111,13 @@ int main(){
 
 	list<Item>::iterator list_it;
 
-	list_it= std::find_if(li.begin(),li.end(),[](Item const& i){return i.name=="Tamas";});
+    list_it= find_if(li.begin(),li.end(),[](Item const& i){return i.name=="Tamas";});
     li.erase(list_it);
     list_it = std::find_if(li.begin(),li.end(),[](Item const& i){return i.name=="Fast";});
     li.erase(list_it);
-    list_it = std::find_if(li.begin(),li.end(),[](Item const& i){return i.iid==5;});
+    list_it = find_if(li.begin(),li.end(),[](Item const& i){return i.iid==5;});
     li.erase(list_it);
-    list_it = std::find_if(li.begin(),li.end(),[](Item const& i){return i.iid==1;});
+    list_it = find_if(li.begin(),li.end(),[](Item const& i){return i.iid==1;});
     li.erase(list_it);
 	
 	cout<<"After the erase:\n";
