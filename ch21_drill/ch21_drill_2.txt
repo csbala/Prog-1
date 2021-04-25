@@ -1,0 +1,10 @@
+Alma 0
+Korte 1
+Szilva 2
+Barack 3
+Banan 4
+Arany 5
+Ezust 6
+Bronz 7
+Ko 8
+Fa 9

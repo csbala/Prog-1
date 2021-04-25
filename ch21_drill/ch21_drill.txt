@@ -1,0 +1,10 @@
+Blaise 1 1.0
+Baki   2 1.5
+Hanma  3 2.3
+Tamas  4 5.7
+Tennma 5 0
+Baki 3 2.4
+Goofy 1 1.0
+Fort 10 -6.7
+Gasti 4 5.6
+Fast 12 3.0
