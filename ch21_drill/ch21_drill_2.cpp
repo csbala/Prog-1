@@ -41,7 +41,7 @@ int main(){
 
 	int sum = accumulate(msi.begin(),msi.end(), 0 ,[](int i, pair<string,int> map){return i+=map.second;});
 	
-	std::cout << "\nSum of the integers:" << sum << std::endl;
+	cout << "\nSum of the integers:" << sum << endl;
 
 	
 	map<int,string> mis;
@@ -49,7 +49,7 @@ int main(){
 	for (const auto& a : msi)
         mis[a.second] = a.first;
 
-    std::cout << '\n';
+    	cout << '\n';
 
 	for(auto& i : mis)
 		cout << i.first << ' ' << i.second << endl;
