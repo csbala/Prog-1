@@ -25,14 +25,14 @@ int main(){
 
 	cout << "Insert the elements:\n";
 	insert(msi);	
-	std::cout << "Map elements:\n";
+	cout << "Map elements:\n";
 	print(msi);
 
 	msi.erase(msi.begin(),msi.end());
 
 	cout << "\nInsert the new elements:\n";
 	insert(msi);
-	std::cout << "Map new elements:\n";
+	cout << "Map new elements:\n";
 	print(msi);
 
 	/*int sum=0;
