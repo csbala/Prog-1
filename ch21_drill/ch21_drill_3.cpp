@@ -9,11 +9,11 @@ void print(T& v){
 
 class Less_than{
 
-double i;
+	double i;
 
 public:
-Less_than(double ii) : i(ii) { }
-bool operator()(double x) const { return x < i; }
+	Less_than(double ii) : i(ii) { }
+	bool operator()(double x) const { return x < i; }
 
 };
 
